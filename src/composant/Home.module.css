@@ -1,0 +1,91 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .left, .right {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 20px;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding: 40px;
+  }
+  
+  .left h2 {
+
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .left h6 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+ 
+  .left p {
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: 40px;
+  }
+  
+  .image {
+    width: 75%;
+    height: 75%;
+    max-width: 600px; 
+    max-height: 600px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    padding: 5px;
+  }
+  
+  .iconLink {
+    display: flex;
+    color: #333;
+    font-size: 2rem;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  .socialIcons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .icon {
+    display: flex;
+    justify-content: flex-start;
+    color: blue;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
+ 
+ .images{ 
+  width: 55%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 10px;
+  padding: 5px
+
+ }
+
+  

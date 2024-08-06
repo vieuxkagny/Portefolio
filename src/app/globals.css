@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+
+
+@layer utilities {
+    .shadow-secondary-1 {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  
+    .shadow-primary-3 {
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    }
+  
+    .shadow-primary-2 {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+  }
