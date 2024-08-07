@@ -1,4 +1,3 @@
-// components/Footer.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
@@ -7,19 +6,17 @@ export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-8" id='ContactForm'>
       <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center">
-          <div>
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="text-center md:text-left mb-4 md:mb-0">
             <h2 className="text-2xl font-bold">Vieux M Kagny</h2>
-            <p className="mt-2">© 2024 Mon portefolio. Tous droits réservés.</p>
+            <p className="mt-2">© 2024 Mon portfolio. Tous droits réservés.</p>
           </div>
-          <div className="space-x-4">
-            <a href="" className="text-gray-400 hover:text-white">Accueil</a>
-           
+          <div className="space-x-4 text-center md:text-left">
+            <a href="/" className="text-gray-400 hover:text-white">Accueil</a>
             <a href="#ContactForm" className="text-gray-400 hover:text-white">Contact</a>
-           
           </div>
         </div>
-        <div className="flex gap-2 mt-5 justify-center space-x-4">
+        <div className="flex gap-4 mt-5 justify-center md:justify-start">
           <a href='https://github.com/vieuxkagny' className="text-blue-500 hover:text-blue-600">
             <FontAwesomeIcon icon={faGithub} className="text-2xl" />
           </a>

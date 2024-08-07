@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from 'next/image';
-const Quisuisje = () => {
 
+const Quisuisje = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen p-10 pt-10" id='Quisuisje'>
-      <div className="flex flex-row w-full h-[100vh]">
-        <div className="flex flex-col justify-center flex-1 p-10 bg-white rounded-lg shadow-lg">
+    <div className="flex flex-col items-center justify-center min-h-screen p-5" id='Quisuisje'>
+      <div className="flex flex-col md:flex-row w-full h-full md:h-[80vh]">
+        <div className="flex flex-col justify-center flex-1 p-6 bg-white rounded-lg shadow-lg">
           <h6 className="text-2xl text-gray-800 mb-2">Vieux M Kagny</h6>
           <p className="text-xl text-gray-600">Développeur Freelance</p>
           <p className="text-lg text-gray-500 mb-4">
@@ -14,7 +14,7 @@ const Quisuisje = () => {
           <p className="text-lg text-gray-500 mb-4">
             J&apos;ai également l&apos;expérience de la formation dans différentes technologies de programmation. J&apos;ai une préférence pour le développement d&apos;applications web avec des outils tels que React, Next.js, MongoDB et Node.js.
           </p>
-          <button className="p-5">
+          <button className="p-2">
             <a
               href="./fichier/Vieux Maita Kagny.pdf"
               download
@@ -25,11 +25,12 @@ const Quisuisje = () => {
           </button>
         </div>
         
-        <div className="flex items-center justify-center flex-1 bg-white rounded-lg shadow-lg ml-4">
+        <div className="flex items-center justify-center flex-1 bg-white rounded-lg shadow-lg mt-6 md:mt-0 md:ml-4">
           <Image
             src="/images/IMG-12.jpg"
             className="w-full h-full object-cover rounded-lg"
-            width={500} height={500}
+            width={500}
+            height={500}
             alt="Programme"
           />
         </div>
