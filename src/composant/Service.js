@@ -11,25 +11,25 @@ const Services = () => {
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-10">
-        <div className="block rounded-lg bg-black shadow-lg dark:bg-surface-dark dark:text-white text-surface">
+        <div className="block rounded-lg bg-white shadow-lg dark:bg-surface-dark dark:text-black text-surface">
           <div className="p-6 flex flex-col items-center">
             <FontAwesomeIcon icon={faGlobe} className="text-blue-500 text-3xl mb-4" />
-            <h5 className="mb-2 text-xl font-medium leading-tight text-center">
+            <h5 className="mb-2 text-xl  leading-tight text-center max-w-2xl ">
               Création site web
             </h5>
-            <p className="mb-4 text-base text-center">
+            <p className="mb-4  text-center text-xl text-gray-600 ">
               Nous créons des sites web adaptés à vos besoins.
             </p>
           </div>
         </div>
 
-        <div className="block rounded-lg bg-black shadow-lg dark:bg-surface-dark dark:text-white text-surface">
+        <div className="block rounded-lg bg-white shadow-lg dark:bg-surface-dark dark:text-black text-surface">
           <div className="p-6 flex flex-col items-center">
             <FontAwesomeIcon icon={faMobile} className="text-blue-500 text-3xl mb-4" />
-            <h5 className="mb-2 text-xl font-medium leading-tight text-center">
+            <h5 className="mb-2 text-xl leading-tight text-center max-w-2xl ">
               Applications web
             </h5>
-            <p className="mb-4 text-base text-center">
+            <p className="mb-4  text-center text-xl text-gray-600 ">
               Développement d&apos;applications web performantes et réactives.
             </p>
           </div>

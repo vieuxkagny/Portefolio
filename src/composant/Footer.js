@@ -16,7 +16,7 @@ export default function Footer() {
             <a href="#ContactForm" className="text-gray-400 hover:text-white">Contact</a>
           </div>
         </div>
-        <div className="flex gap-4 mt-5 justify-center md:justify-start">
+        <div className="flex gap-4 mt-5 justify-center md:justify-center">
           <a href='https://github.com/vieuxkagny' className="text-blue-500 hover:text-blue-600">
             <FontAwesomeIcon icon={faGithub} className="text-2xl" />
           </a>
