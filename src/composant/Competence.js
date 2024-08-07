@@ -5,7 +5,7 @@ const Competences = () => {
     <div className="flex flex-col items-center justify-center p-10 bg-white" id='Competence'>
       <h1 className="text-4xl font-bold text-gray-800 mb-4">Mes Compétences</h1>
       <p className="text-xl text-gray-600 text-center max-w-2xl mb-10">
-        Avec quelque mois d'expérience dans le développement web, j'ai acquis une  maîtrise des technologies essentielles. Voici les compétences que j'utilise régulièrement pour créer des applications web performantes et intuitives.
+        Avec quelque mois d&apos;expérience dans le développement web, j&apos;ai acquis une  maîtrise des technologies essentielles. Voici les compétences que j&apos;utilise régulièrement pour créer des applications web performantes et intuitives.
       </p>
 
       <div className="w-full max-w-2xl flex gap-4 text-center">

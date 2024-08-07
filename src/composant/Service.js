@@ -9,7 +9,7 @@ import { faGlobe, faMobile } from '@fortawesome/free-solid-svg-icons';
         <div className="flex flex-col items-center justify-center h-screen p-10 bg-white" id='Service'>
           <h1 className="text-4xl font-bold text-gray-800 mb-4 p-10 pt-10">Mes Services</h1>
           <p className="text-xl text-gray-600 text-center max-w-2xl mb-10">
-            Nous offrons une gamme complète de services pour la création de sites web et d'applications web. Que ce soit pour une simple vitrine ou une application complexe, notre équipe est prête à transformer vos idées en réalité. Nous utilisons les dernières technologies pour garantir que vos projets soient performants, réactifs et adaptés à vos besoins.
+            Nous offrons une gamme complète de services pour la création de sites web et d&apos;applications web. Que ce soit pour une simple vitrine ou une application complexe, notre équipe est prête à transformer vos idées en réalité. Nous utilisons les dernières technologies pour garantir que vos projets soient performants, réactifs et adaptés à vos besoins.
           </p>
     
           <div className="grid grid-cols-1 grid-rows-1 md:grid-cols-2 p-20 gap-4">
@@ -32,7 +32,7 @@ import { faGlobe, faMobile } from '@fortawesome/free-solid-svg-icons';
                   Applications web
                 </h5>
                 <p className="mb-4 text-base text-center">
-                  Développement d'applications web performantes et réactives.
+                  Développement d&apos;applications web performantes et réactives.
                 </p>
               </div>
             </div>

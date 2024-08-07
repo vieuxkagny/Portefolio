@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import Image from 'next/image';
 import React, { useState } from 'react';
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link href="/" className="text-black">
-                  <img src="./images/dessin.jpeg" alt="Logo" className="h-20 w-20" />
+                  <Image src="/images/dessin.jpeg" alt="Logo" width={70} height={70}/>
                 </Link>
               </div>
             </div>

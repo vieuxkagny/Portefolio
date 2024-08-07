@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const Quisuisje = () => {
 
   return (
@@ -9,10 +9,10 @@ const Quisuisje = () => {
           <h6 className="text-2xl text-gray-800 mb-2">Vieux M Kagny</h6>
           <p className="text-xl text-gray-600">Développeur Freelance</p>
           <p className="text-lg text-gray-500 mb-4">
-            En tant que passionné du développement web et mobile, je suis un jeune développeur dynamique qui souhaite mettre ses compétences au service de startups et d'entreprises en pleine croissance.
+            En tant que passionné du développement web et mobile, je suis un jeune développeur dynamique qui souhaite mettre ses compétences au service de startups et d&apos;entreprises en pleine croissance.
           </p>
           <p className="text-lg text-gray-500 mb-4">
-            J'ai également l'expérience de la formation dans différentes technologies de programmation. J'ai une préférence pour le développement d'applications web avec des outils tels que React, Next.js, MongoDB et Node.js.
+            J&apos;ai également l&apos;expérience de la formation dans différentes technologies de programmation. J&apos;ai une préférence pour le développement d&apos;applications web avec des outils tels que React, Next.js, MongoDB et Node.js.
           </p>
           <button className="p-5">
             <a
@@ -26,9 +26,10 @@ const Quisuisje = () => {
         </div>
         
         <div className="flex items-center justify-center flex-1 bg-white rounded-lg shadow-lg ml-4">
-          <img
+          <Image
             src="/images/IMG-12.jpg"
             className="w-full h-full object-cover rounded-lg"
+            width={500} height={500}
             alt="Programme"
           />
         </div>

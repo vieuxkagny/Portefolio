@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
@@ -26,9 +27,10 @@ const Accueil = () => {
       </div>
       
       <div className="flex items-center justify-center flex-1">
-        <img
+        <Image
           src="/images/OIG4.jpeg"
           className="w-full h-full object-cover rounded-lg"
+          width={500} height={500}
           alt="Programme"
         />
       </div>
